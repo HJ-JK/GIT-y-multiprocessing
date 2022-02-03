@@ -2228,4 +2228,45 @@ matlab_crash_dump.4675-1
 multiprocessing.txt
 opt
 practica1
-bash-3.2$ mv mu
+bash-3.2$ mv multiprocessing.txt practica1/
+.DS_Store              GIT-y-multiprocessing/ 
+bash-3.2$ mv multiprocessing.txt practica1/GIT-y-multiprocessing/
+bash-3.2$ cd practica1/GIT-y-multiprocessing/
+bash-3.2$ ls
+0_procesos.py		3_procesos.py		README.md
+1_procesos.py		4_procesos.py		multiprocessing.txt
+2_procesos.py		LICENSE
+bash-3.2$ git add multiprocessing.txt 
+bash-3.2$ f[Kgit commit -m "p1"
+[main 93b2d9b] p1
+ Committer: Hanjie Zhu <hanjiezhu@MacBook-Pro-de-Hanjie.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 2357 insertions(+)
+ create mode 100644 0_procesos.py
+ create mode 100644 1_procesos.py
+ create mode 100644 2_procesos.py
+ create mode 100644 3_procesos.py
+ create mode 100644 4_procesos.py
+ create mode 100644 multiprocessing.txt
+bash-3.2$ git push
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 11.04 KiB | 2.76 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To github.com:HJ-JK/GIT-y-multiprocessing.git
+   79f8175..93b2d9b  main -> main
+bash-3.2$ 
